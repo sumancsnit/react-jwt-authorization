@@ -25,3 +25,5 @@ const QuotesList = () => {
 };
 
 export default QuotesList;
+
+// 39:47
