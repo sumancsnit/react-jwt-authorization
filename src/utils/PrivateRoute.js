@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 
-import { QuoteContext } from './contexts/QuoteContext';
+// import { QuoteContext } from './contexts/QuoteContext';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
   return (

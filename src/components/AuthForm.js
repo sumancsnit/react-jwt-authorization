@@ -26,7 +26,7 @@ const AuthForm = ({ role, history }) => {
         console.log(res);
         setLoggedIn(true);
         localStorage.setItem('token', res.data.token);
-        // history.push('/quotes');
+        history.push('/quotes');
       })
       .catch((err) => console.log(err));
   };
