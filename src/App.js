@@ -13,6 +13,9 @@ import QuotesList from './components/QuotesList';
 
 const App = () => {
   const [quotes, setQuotes] = useState([]);
+  // const [loggedIn, setLoggedIn] = useState(
+  //   localStorage.getItem('token') ? true : false
+  // );
   const [loggedIn, setLoggedIn] = useState(
     localStorage.getItem('token') ? true : false
   );
